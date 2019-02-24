@@ -13,11 +13,21 @@ namespace Grades
             book.AddGrade(71);
 
             GradeStatistics stats = book.ComputeStatistics();
-            Console.WriteLine($"Average grade: {stats.AverageGrade}");
-            Console.WriteLine($"Highest grade: {stats.HighestGrade}");
-            Console.WriteLine($"Lowest grade: {stats.LowestGrade}");
+            WriteResult("Average grade", stats.AverageGrade);
+            WriteResult("Highest grade", (int)stats.HighestGrade);
+            WriteResult("Lowest grade", stats.LowestGrade);
 
 
+        }
+
+        static void WriteResult(string description, int result)
+        {
+            Console.WriteLine(description + ": " + result);
+        }
+
+        static void WriteResult(string description, float result)
+        {
+            Console.WriteLine(description + ": " + result);
         }
     }
 }

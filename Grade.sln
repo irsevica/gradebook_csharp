@@ -1,9 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradesTest", "Grades.Test\GradesTest.csproj", "{1C9FCA78-2A8D-4531-9177-F70AEB195FBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grades", "Grades\Grades.csproj", "{EE315752-62B0-4938-997F-76D7DDCDCB39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grades", "Gradess\Grades.csproj", "{9B063BC2-B05D-4EC5-A2AB-E665961F5C4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradesTest", "GradesTest\GradesTest.csproj", "{CA196C82-AC92-4FBE-B02C-3AD16B86C727}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1C9FCA78-2A8D-4531-9177-F70AEB195FBE}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{1C9FCA78-2A8D-4531-9177-F70AEB195FBE}.Debug|x86.Build.0 = Debug|Any CPU
-		{1C9FCA78-2A8D-4531-9177-F70AEB195FBE}.Release|x86.ActiveCfg = Release|Any CPU
-		{1C9FCA78-2A8D-4531-9177-F70AEB195FBE}.Release|x86.Build.0 = Release|Any CPU
-		{9B063BC2-B05D-4EC5-A2AB-E665961F5C4C}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{9B063BC2-B05D-4EC5-A2AB-E665961F5C4C}.Debug|x86.Build.0 = Debug|Any CPU
-		{9B063BC2-B05D-4EC5-A2AB-E665961F5C4C}.Release|x86.ActiveCfg = Release|Any CPU
-		{9B063BC2-B05D-4EC5-A2AB-E665961F5C4C}.Release|x86.Build.0 = Release|Any CPU
+		{EE315752-62B0-4938-997F-76D7DDCDCB39}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EE315752-62B0-4938-997F-76D7DDCDCB39}.Debug|x86.Build.0 = Debug|Any CPU
+		{EE315752-62B0-4938-997F-76D7DDCDCB39}.Release|x86.ActiveCfg = Release|Any CPU
+		{EE315752-62B0-4938-997F-76D7DDCDCB39}.Release|x86.Build.0 = Release|Any CPU
+		{CA196C82-AC92-4FBE-B02C-3AD16B86C727}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CA196C82-AC92-4FBE-B02C-3AD16B86C727}.Debug|x86.Build.0 = Debug|Any CPU
+		{CA196C82-AC92-4FBE-B02C-3AD16B86C727}.Release|x86.ActiveCfg = Release|Any CPU
+		{CA196C82-AC92-4FBE-B02C-3AD16B86C727}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
