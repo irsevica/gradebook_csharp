@@ -3,7 +3,7 @@ namespace Grades
 {
     public class ThrowAwayGradeBook : GradeBook
     {
-        public GradeStatistics ComputeStatistics()
+        public override GradeStatistics ComputeStatistics()
         {
             float lowest = float.MaxValue;
 
