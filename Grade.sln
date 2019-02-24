@@ -1,0 +1,37 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradesTest", "Grades.Test\GradesTest.csproj", "{1C9FCA78-2A8D-4531-9177-F70AEB195FBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grades", "Gradess\Grades.csproj", "{9B063BC2-B05D-4EC5-A2AB-E665961F5C4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C9FCA78-2A8D-4531-9177-F70AEB195FBE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1C9FCA78-2A8D-4531-9177-F70AEB195FBE}.Debug|x86.Build.0 = Debug|Any CPU
+		{1C9FCA78-2A8D-4531-9177-F70AEB195FBE}.Release|x86.ActiveCfg = Release|Any CPU
+		{1C9FCA78-2A8D-4531-9177-F70AEB195FBE}.Release|x86.Build.0 = Release|Any CPU
+		{9B063BC2-B05D-4EC5-A2AB-E665961F5C4C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9B063BC2-B05D-4EC5-A2AB-E665961F5C4C}.Debug|x86.Build.0 = Debug|Any CPU
+		{9B063BC2-B05D-4EC5-A2AB-E665961F5C4C}.Release|x86.ActiveCfg = Release|Any CPU
+		{9B063BC2-B05D-4EC5-A2AB-E665961F5C4C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.FileWidth = 80
+		$4.TabsToSpaces = True
+		$4.scope = text/plain
+	EndGlobalSection
+EndGlobal
