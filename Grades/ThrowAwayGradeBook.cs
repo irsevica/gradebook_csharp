@@ -15,6 +15,7 @@ namespace Grades
             grades.Remove(lowest);
 
             return base.ComputeStatistics();
+            
         }
     }
 }
