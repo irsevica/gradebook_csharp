@@ -17,7 +17,7 @@ namespace Grades
             AddGrades(book);
 
             SaveGrades(book);
-            ;
+            
             WriteResults(book);
         }
 
